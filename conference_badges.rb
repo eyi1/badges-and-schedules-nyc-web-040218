@@ -9,4 +9,4 @@ end
 
 def conference_badges (room)
   room.each_with_index {|number, 0...6|}
-end 
+end
