@@ -9,6 +9,6 @@ end
 
 def assign_rooms (arr)
   room_number = (1...7).to_a
-  arr.each_with_index { |attendee, index| "Hello, #{attendee}!
+  arr.map.each_with_index { |attendee, index| "Hello, #{attendee}!
      You'll be assigned to room #{room_number[index]}!" }
 end
