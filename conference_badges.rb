@@ -14,11 +14,11 @@ def assign_rooms (speakers)
 end
 
 def printer (list)
-  print1 = batch_badge_creator(list)
+  print1 = batch_badge_creator(x)
   print1.each do |item|
     puts item
   end
-  print2 = assign_rooms(list)
+  print2 = assign_rooms(x)
   print2.each do |item|
     puts item
   end
