@@ -7,6 +7,6 @@ def batch_badge_creator (array)
 end
 
 
-def conference_badges (room)
+def assign_rooms (room)
   room.each_with_index {|item, index|}
 end
