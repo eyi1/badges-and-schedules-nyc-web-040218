@@ -7,6 +7,7 @@ def batch_badge_creator (array)
 end
 
 
-def assign_rooms (room)
-  room.each_with_index {|item, index|}
+def assign_rooms (attendee)
+  attendees.each_with_index { |attendee, index| "Hello, #{attendee}!
+     You'll be assigned to room #{room_number[index]}!" }
 end
