@@ -23,4 +23,3 @@ def printer (list)
     puts item
   end
 end
-
